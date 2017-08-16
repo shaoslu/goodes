@@ -1,5 +1,5 @@
 <?php
-use Elasticsearch\ClientBuilder;
+use Goodses\Elasticsearch\ClientBuilder;
 
 /**
  * Class SniffingConnectionPoolIntegrationTest

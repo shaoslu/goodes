@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Common\Exceptions;
+namespace Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * NoShardAvailableException

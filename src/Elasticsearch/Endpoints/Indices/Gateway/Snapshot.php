@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Indices\Gateway;
+namespace Goodses\Elasticsearch\Endpoints\Indices\Gateway;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Snapshot

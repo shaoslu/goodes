@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints{% for class in namespace %}{{ loop.last ? ';' : '\\' ~ class|title  }}{%  endfor %}
+namespace Goodses\Elasticsearch\Endpoints{% for class in namespace %}{{ loop.last ? ';' : '\\' ~ class|title  }}{%  endfor %}
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * Class {{ className|title|replace({'.': ""}) }}

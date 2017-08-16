@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Cluster\Settings;
+namespace Goodses\Elasticsearch\Endpoints\Cluster\Settings;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Get

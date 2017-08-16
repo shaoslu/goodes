@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Indices\Alias;
+namespace Goodses\Elasticsearch\Endpoints\Indices\Alias;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Exists

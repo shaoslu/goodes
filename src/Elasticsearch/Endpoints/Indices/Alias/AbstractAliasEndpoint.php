@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Indices\Alias;
+namespace Goodses\Elasticsearch\Endpoints\Indices\Alias;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions\InvalidArgumentException;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class AbstractAliasEndpoint

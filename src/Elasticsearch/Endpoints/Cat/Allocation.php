@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Cat;
+namespace Goodses\Elasticsearch\Endpoints\Cat;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Allocation

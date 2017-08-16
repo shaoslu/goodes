@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Cluster;
+namespace Goodses\Elasticsearch\Endpoints\Cluster;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * Class Reroute

@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Indices;
+namespace Goodses\Elasticsearch\Endpoints\Indices;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * Class Analyze

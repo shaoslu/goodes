@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Namespaces;
+namespace Goodses\Elasticsearch\Namespaces;
 
 /**
  * Class ClusterNamespace

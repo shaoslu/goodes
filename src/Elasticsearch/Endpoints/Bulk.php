@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints;
+namespace Goodses\Elasticsearch\Endpoints;
 
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use Goodses\Elasticsearch\Serializers\SerializerInterface;
+use Goodses\Elasticsearch\Transport;
 
 /**
  * Class Bulk

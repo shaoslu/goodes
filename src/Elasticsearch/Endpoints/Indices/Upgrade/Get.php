@@ -5,10 +5,10 @@
  * Time: 14:34:49 pm
  */
 
-namespace Elasticsearch\Endpoints\Indices\Upgrade;
+namespace Goodses\Elasticsearch\Endpoints\Indices\Upgrade;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * Class Post

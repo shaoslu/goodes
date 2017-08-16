@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Tests\Serializers;
+namespace Goodses\Elasticsearch\Tests\Serializers;
 
-use Elasticsearch\Serializers\EverythingToJSONSerializer;
+use Goodses\Elasticsearch\Serializers\EverythingToJSONSerializer;
 use PHPUnit_Framework_TestCase;
 use Mockery as m;
 

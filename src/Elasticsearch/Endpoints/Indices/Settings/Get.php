@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Indices\Settings;
+namespace Goodses\Elasticsearch\Endpoints\Indices\Settings;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Get

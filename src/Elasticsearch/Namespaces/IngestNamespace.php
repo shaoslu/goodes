@@ -1,11 +1,11 @@
 <?php
 
-namespace Elasticsearch\Namespaces;
+namespace Goodses\Elasticsearch\Namespaces;
 
-use Elasticsearch\Endpoints\Ingest\Pipeline\Delete;
-use Elasticsearch\Endpoints\Ingest\Pipeline\Get;
-use Elasticsearch\Endpoints\Ingest\Pipeline\Put;
-use Elasticsearch\Endpoints\Ingest\Simulate;
+use Goodses\Elasticsearch\Endpoints\Ingest\Pipeline\Delete;
+use Goodses\Elasticsearch\Endpoints\Ingest\Pipeline\Get;
+use Goodses\Elasticsearch\Endpoints\Ingest\Pipeline\Put;
+use Goodses\Elasticsearch\Endpoints\Ingest\Simulate;
 
 /**
  * Class IngestNamespace

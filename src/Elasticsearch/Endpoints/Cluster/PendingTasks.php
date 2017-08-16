@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Cluster;
+namespace Goodses\Elasticsearch\Endpoints\Cluster;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Pendingtasks

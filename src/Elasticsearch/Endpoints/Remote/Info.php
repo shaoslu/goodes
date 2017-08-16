@@ -1,7 +1,7 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Remote;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+namespace Goodses\Elasticsearch\Endpoints\Remote;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Info

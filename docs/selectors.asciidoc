@@ -75,8 +75,8 @@ You can implement your own custom selector.  Custom selectors must implement `Se
 ----
 namespace MyProject\Selectors;
 
-use Elasticsearch\Connections\ConnectionInterface;
-use Elasticsearch\ConnectionPool\Selectors\SelectorInterface
+use Goodses\Elasticsearch\Connections\ConnectionInterface;
+use Goodses\Elasticsearch\ConnectionPool\Selectors\SelectorInterface
 
 class MyCustomSelector implements SelectorInterface
 {

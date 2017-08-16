@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Script;
+namespace Goodses\Elasticsearch\Endpoints\Script;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * Class Put

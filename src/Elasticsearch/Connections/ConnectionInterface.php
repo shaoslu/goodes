@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Connections;
+namespace Goodses\Elasticsearch\Connections;
 
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use Goodses\Elasticsearch\Serializers\SerializerInterface;
+use Goodses\Elasticsearch\Transport;
 use Psr\Log\LoggerInterface;
 
 /**

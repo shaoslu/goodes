@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Endpoints;
+namespace Goodses\Elasticsearch\Endpoints;
 
 /**
  * Class Reindex

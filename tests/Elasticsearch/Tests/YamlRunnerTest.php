@@ -1,16 +1,16 @@
 <?php
 
-namespace Elasticsearch\Tests;
+namespace Goodses\Elasticsearch\Tests;
 
 use Doctrine\Common\Inflector\Inflector;
-use Elasticsearch;
-use Elasticsearch\Common\Exceptions\BadRequest400Exception;
-use Elasticsearch\Common\Exceptions\Conflict409Exception;
-use Elasticsearch\Common\Exceptions\Forbidden403Exception;
-use Elasticsearch\Common\Exceptions\Missing404Exception;
-use Elasticsearch\Common\Exceptions\RequestTimeout408Exception;
-use Elasticsearch\Common\Exceptions\ServerErrorResponseException;
-use Elasticsearch\Common\Exceptions\RoutingMissingException;
+use Goodses\Elasticsearch;
+use Goodses\Elasticsearch\Common\Exceptions\BadRequest400Exception;
+use Goodses\Elasticsearch\Common\Exceptions\Conflict409Exception;
+use Goodses\Elasticsearch\Common\Exceptions\Forbidden403Exception;
+use Goodses\Elasticsearch\Common\Exceptions\Missing404Exception;
+use Goodses\Elasticsearch\Common\Exceptions\RequestTimeout408Exception;
+use Goodses\Elasticsearch\Common\Exceptions\ServerErrorResponseException;
+use Goodses\Elasticsearch\Common\Exceptions\RoutingMissingException;
 use GuzzleHttp\Ring\Future\FutureArrayInterface;
 use stdClass;
 use Symfony\Component\Finder\Finder;

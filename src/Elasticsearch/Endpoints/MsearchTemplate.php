@@ -1,10 +1,10 @@
 <?php
 
-namespace Elasticsearch\Endpoints;
+namespace Goodses\Elasticsearch\Endpoints;
 
-use Elasticsearch\Common\Exceptions;
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use Goodses\Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Serializers\SerializerInterface;
+use Goodses\Elasticsearch\Transport;
 
 /**
  * Class MsearchTemplate

@@ -1,12 +1,12 @@
 <?php
 
-namespace Elasticsearch\ConnectionPool;
+namespace Goodses\Elasticsearch\ConnectionPool;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\ConnectionPool\Selectors\SelectorInterface;
-use Elasticsearch\Connections\Connection;
-use Elasticsearch\Connections\ConnectionFactoryInterface;
-use Elasticsearch\Connections\ConnectionInterface;
+use Goodses\Elasticsearch\Common\Exceptions\InvalidArgumentException;
+use Goodses\Elasticsearch\ConnectionPool\Selectors\SelectorInterface;
+use Goodses\Elasticsearch\Connections\Connection;
+use Goodses\Elasticsearch\Connections\ConnectionFactoryInterface;
+use Goodses\Elasticsearch\Connections\ConnectionInterface;
 
 /**
  * Class AbstractConnectionPool

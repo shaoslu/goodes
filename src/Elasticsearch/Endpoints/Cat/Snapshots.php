@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Cat;
+namespace Goodses\Elasticsearch\Endpoints\Cat;
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions\RuntimeException;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Snapshots

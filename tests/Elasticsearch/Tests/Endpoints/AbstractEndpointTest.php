@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Tests\Endpoints;
+namespace Goodses\Elasticsearch\Tests\Endpoints;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 class AbstractEndpointTest extends \PHPUnit_Framework_TestCase
 {

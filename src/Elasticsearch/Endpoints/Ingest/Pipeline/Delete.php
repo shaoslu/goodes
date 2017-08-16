@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Ingest\Pipeline;
+namespace Goodses\Elasticsearch\Endpoints\Ingest\Pipeline;
 
-use Elasticsearch\Common\Exceptions;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
 
 /**
  * Class Delete

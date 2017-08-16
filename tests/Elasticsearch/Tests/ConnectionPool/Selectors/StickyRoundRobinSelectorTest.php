@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Tests\ConnectionPool\Selectors;
+namespace Goodses\Elasticsearch\Tests\ConnectionPool\Selectors;
 
-use Elasticsearch;
+use Goodses\Elasticsearch;
 use Mockery as m;
 
 /**

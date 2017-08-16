@@ -1,8 +1,8 @@
 <?php
 
-namespace Elasticsearch\Endpoints;
+namespace Goodses\Elasticsearch\Endpoints;
 
-use Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * Class UpdateByQuery

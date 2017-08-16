@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Common\Exceptions\Curl;
+namespace Goodses\Elasticsearch\Common\Exceptions\Curl;
 
-use Elasticsearch\Common\Exceptions\ElasticsearchException;
-use Elasticsearch\Common\Exceptions\TransportException;
+use Goodses\Elasticsearch\Common\Exceptions\ElasticsearchException;
+use Goodses\Elasticsearch\Common\Exceptions\TransportException;
 
 /**
  * Class CouldNotResolveHostException

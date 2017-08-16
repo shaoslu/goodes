@@ -1,11 +1,11 @@
 <?php
 
-namespace Elasticsearch;
+namespace Goodses\Elasticsearch;
 
-use Elasticsearch\Common\Exceptions;
-use Elasticsearch\ConnectionPool\AbstractConnectionPool;
-use Elasticsearch\Connections\Connection;
-use Elasticsearch\Connections\ConnectionInterface;
+use Goodses\Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\ConnectionPool\AbstractConnectionPool;
+use Goodses\Elasticsearch\Connections\Connection;
+use Goodses\Elasticsearch\Connections\ConnectionInterface;
 use GuzzleHttp\Ring\Future\FutureArrayInterface;
 use Psr\Log\LoggerInterface;
 

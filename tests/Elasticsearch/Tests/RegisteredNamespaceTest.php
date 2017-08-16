@@ -1,11 +1,11 @@
 <?php
 
-namespace Elasticsearch\Tests;
+namespace Goodses\Elasticsearch\Tests;
 
-use Elasticsearch;
-use Elasticsearch\ClientBuilder;
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use Goodses\Elasticsearch;
+use Goodses\Elasticsearch\ClientBuilder;
+use Goodses\Elasticsearch\Serializers\SerializerInterface;
+use Goodses\Elasticsearch\Transport;
 use Mockery as m;
 
 /**

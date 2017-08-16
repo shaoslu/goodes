@@ -1,7 +1,7 @@
 <?php
 
-use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
-use Elasticsearch\ConnectionPool\SniffingConnectionPool;
+use Goodses\Elasticsearch\Common\Exceptions\NoNodesAvailableException;
+use Goodses\Elasticsearch\ConnectionPool\SniffingConnectionPool;
 use Mockery as m;
 
 /**

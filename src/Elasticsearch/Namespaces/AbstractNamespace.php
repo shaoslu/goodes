@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Namespaces;
+namespace Goodses\Elasticsearch\Namespaces;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Transport;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Transport;
 
 /**
  * Class AbstractNamespace

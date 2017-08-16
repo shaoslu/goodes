@@ -1,25 +1,25 @@
 <?php
 
-namespace Elasticsearch\Connections;
+namespace Goodses\Elasticsearch\Connections;
 
-use Elasticsearch\Common\Exceptions\AlreadyExpiredException;
-use Elasticsearch\Common\Exceptions\BadRequest400Exception;
-use Elasticsearch\Common\Exceptions\Conflict409Exception;
-use Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost;
-use Elasticsearch\Common\Exceptions\Curl\CouldNotResolveHostException;
-use Elasticsearch\Common\Exceptions\Curl\OperationTimeoutException;
-use Elasticsearch\Common\Exceptions\Forbidden403Exception;
-use Elasticsearch\Common\Exceptions\MaxRetriesException;
-use Elasticsearch\Common\Exceptions\Missing404Exception;
-use Elasticsearch\Common\Exceptions\NoDocumentsToGetException;
-use Elasticsearch\Common\Exceptions\NoShardAvailableException;
-use Elasticsearch\Common\Exceptions\RequestTimeout408Exception;
-use Elasticsearch\Common\Exceptions\RoutingMissingException;
-use Elasticsearch\Common\Exceptions\ScriptLangNotSupportedException;
-use Elasticsearch\Common\Exceptions\ServerErrorResponseException;
-use Elasticsearch\Common\Exceptions\TransportException;
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use Goodses\Elasticsearch\Common\Exceptions\AlreadyExpiredException;
+use Goodses\Elasticsearch\Common\Exceptions\BadRequest400Exception;
+use Goodses\Elasticsearch\Common\Exceptions\Conflict409Exception;
+use Goodses\Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost;
+use Goodses\Elasticsearch\Common\Exceptions\Curl\CouldNotResolveHostException;
+use Goodses\Elasticsearch\Common\Exceptions\Curl\OperationTimeoutException;
+use Goodses\Elasticsearch\Common\Exceptions\Forbidden403Exception;
+use Goodses\Elasticsearch\Common\Exceptions\MaxRetriesException;
+use Goodses\Elasticsearch\Common\Exceptions\Missing404Exception;
+use Goodses\Elasticsearch\Common\Exceptions\NoDocumentsToGetException;
+use Goodses\Elasticsearch\Common\Exceptions\NoShardAvailableException;
+use Goodses\Elasticsearch\Common\Exceptions\RequestTimeout408Exception;
+use Goodses\Elasticsearch\Common\Exceptions\RoutingMissingException;
+use Goodses\Elasticsearch\Common\Exceptions\ScriptLangNotSupportedException;
+use Goodses\Elasticsearch\Common\Exceptions\ServerErrorResponseException;
+use Goodses\Elasticsearch\Common\Exceptions\TransportException;
+use Goodses\Elasticsearch\Serializers\SerializerInterface;
+use Goodses\Elasticsearch\Transport;
 use GuzzleHttp\Ring\Core;
 use GuzzleHttp\Ring\Exception\ConnectException;
 use GuzzleHttp\Ring\Exception\RingException;

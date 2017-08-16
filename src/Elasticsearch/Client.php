@@ -1,25 +1,25 @@
 <?php
 
-namespace Elasticsearch;
+namespace Goodses\Elasticsearch;
 
-use Elasticsearch\Common\Exceptions\BadMethodCallException;
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
-use Elasticsearch\Common\Exceptions\BadRequest400Exception;
-use Elasticsearch\Common\Exceptions\Missing404Exception;
-use Elasticsearch\Common\Exceptions\TransportException;
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Namespaces\AbstractNamespace;
-use Elasticsearch\Namespaces\CatNamespace;
-use Elasticsearch\Namespaces\ClusterNamespace;
-use Elasticsearch\Namespaces\IndicesNamespace;
-use Elasticsearch\Namespaces\IngestNamespace;
-use Elasticsearch\Namespaces\NamespaceBuilderInterface;
-use Elasticsearch\Namespaces\NodesNamespace;
-use Elasticsearch\Namespaces\RemoteNamespace;
-use Elasticsearch\Namespaces\SnapshotNamespace;
-use Elasticsearch\Namespaces\BooleanRequestWrapper;
-use Elasticsearch\Namespaces\TasksNamespace;
+use Goodses\Elasticsearch\Common\Exceptions\BadMethodCallException;
+use Goodses\Elasticsearch\Common\Exceptions\InvalidArgumentException;
+use Goodses\Elasticsearch\Common\Exceptions\NoNodesAvailableException;
+use Goodses\Elasticsearch\Common\Exceptions\BadRequest400Exception;
+use Goodses\Elasticsearch\Common\Exceptions\Missing404Exception;
+use Goodses\Elasticsearch\Common\Exceptions\TransportException;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Namespaces\AbstractNamespace;
+use Goodses\Elasticsearch\Namespaces\CatNamespace;
+use Goodses\Elasticsearch\Namespaces\ClusterNamespace;
+use Goodses\Elasticsearch\Namespaces\IndicesNamespace;
+use Goodses\Elasticsearch\Namespaces\IngestNamespace;
+use Goodses\Elasticsearch\Namespaces\NamespaceBuilderInterface;
+use Goodses\Elasticsearch\Namespaces\NodesNamespace;
+use Goodses\Elasticsearch\Namespaces\RemoteNamespace;
+use Goodses\Elasticsearch\Namespaces\SnapshotNamespace;
+use Goodses\Elasticsearch\Namespaces\BooleanRequestWrapper;
+use Goodses\Elasticsearch\Namespaces\TasksNamespace;
 
 /**
  * Class Client

@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Cluster\Nodes;
+namespace Goodses\Elasticsearch\Endpoints\Cluster\Nodes;
 
 /**
  * Class Hotthreads

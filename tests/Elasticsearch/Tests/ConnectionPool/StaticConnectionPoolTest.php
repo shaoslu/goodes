@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Tests\ConnectionPool;
+namespace Goodses\Elasticsearch\Tests\ConnectionPool;
 
-use Elasticsearch;
-use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
+use Goodses\Elasticsearch;
+use Goodses\Elasticsearch\Common\Exceptions\NoNodesAvailableException;
 use Mockery as m;
 
 /**

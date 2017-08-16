@@ -1,9 +1,9 @@
 <?php
 
-namespace Elasticsearch\Endpoints\Snapshot;
+namespace Goodses\Elasticsearch\Endpoints\Snapshot;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use Goodses\Elasticsearch\Endpoints\AbstractEndpoint;
+use Goodses\Elasticsearch\Common\Exceptions;
 
 /**
  * Class Create

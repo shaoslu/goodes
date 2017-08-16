@@ -1,10 +1,10 @@
 <?php
 
-namespace Elasticsearch\Endpoints;
+namespace Goodses\Elasticsearch\Endpoints;
 
-use Elasticsearch\Common\Exceptions\UnexpectedValueException;
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use Goodses\Elasticsearch\Common\Exceptions\UnexpectedValueException;
+use Goodses\Elasticsearch\Serializers\SerializerInterface;
+use Goodses\Elasticsearch\Transport;
 use Exception;
 use GuzzleHttp\Ring\Future\FutureArrayInterface;
 
