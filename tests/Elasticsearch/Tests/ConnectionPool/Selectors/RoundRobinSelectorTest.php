@@ -25,11 +25,11 @@ class RoundRobinSelectorTest extends \PHPUnit_Framework_TestCase
      */
     public function testTenConnections()
     {
-        $roundRobin = new Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector();
+        $roundRobin = new Goodses\Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector();
 
         $mockConnections = array();
         foreach (range(0, 10) as $index) {
-            $mockConnections[$index] = $this->getMockBuilder('\Elasticsearch\Connections\CurlMultiConnection')
+            $mockConnections[$index] = $this->getMockBuilder('Goodses\Elasticsearch\Connections\CurlMultiConnection')
                 ->disableOriginalConstructor()
                 ->getMock();
         }
@@ -52,11 +52,11 @@ class RoundRobinSelectorTest extends \PHPUnit_Framework_TestCase
      */
     public function testAddTenConnectionsestFiveTRemoveThree()
     {
-        $roundRobin = new Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector();
+        $roundRobin = new Goodses\Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector();
 
         $mockConnections = array();
         foreach (range(0, 10) as $index) {
-            $mockConnections[$index] = $this->getMockBuilder('\Elasticsearch\Connections\CurlMultiConnection')
+            $mockConnections[$index] = $this->getMockBuilder('Goodses\Elasticsearch\Connections\CurlMultiConnection')
                 ->disableOriginalConstructor()
                 ->getMock();
         }

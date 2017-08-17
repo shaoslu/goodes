@@ -18,7 +18,7 @@ The `RoundRobinSelector` is default, but if you wish to explicitily configure it
 [source,php]
 ----
 $client = ClientBuilder::create()
-            ->setSelector('\Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector')
+            ->setSelector('Goodses\Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector')
             ->build();
 ----
 
@@ -46,7 +46,7 @@ If you wish to use this selector, you may do so with:
 [source,php]
 ----
 $client = ClientBuilder::create()
-            ->setSelector('\Elasticsearch\ConnectionPool\Selectors\StickyRoundRobinSelector')
+            ->setSelector('Goodses\Elasticsearch\ConnectionPool\Selectors\StickyRoundRobinSelector')
             ->build();
 ----
 
@@ -61,7 +61,7 @@ If you wish to use this selector, you may do so with:
 [source,php]
 ----
 $client = ClientBuilder::create()
-            ->setSelector('\Elasticsearch\ConnectionPool\Selectors\RandomSelector')
+            ->setSelector('Goodses\Elasticsearch\ConnectionPool\Selectors\RandomSelector')
             ->build();
 ----
 

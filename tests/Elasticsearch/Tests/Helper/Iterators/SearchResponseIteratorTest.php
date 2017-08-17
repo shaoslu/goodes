@@ -33,7 +33,7 @@ class SearchResponseIteratorTest extends \PHPUnit_Framework_TestCase
             )
         );
 
-        $mock_client = m::mock('\Elasticsearch\Client');
+        $mock_client = m::mock('Goodses\Elasticsearch\Client');
 
         $mock_client->shouldReceive('search')
             ->once()
@@ -68,7 +68,7 @@ class SearchResponseIteratorTest extends \PHPUnit_Framework_TestCase
             )
         );
 
-        $mock_client = m::mock('\Elasticsearch\Client');
+        $mock_client = m::mock('Goodses\Elasticsearch\Client');
 
         $mock_client->shouldReceive('search')
             ->once()

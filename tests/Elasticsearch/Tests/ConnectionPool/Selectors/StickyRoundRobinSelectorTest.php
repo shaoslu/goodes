@@ -24,14 +24,14 @@ class StickyRoundRobinSelectorTest extends \PHPUnit_Framework_TestCase
 
     public function testTenConnections()
     {
-        $roundRobin = new Elasticsearch\ConnectionPool\Selectors\StickyRoundRobinSelector();
+        $roundRobin = new Goodses\Elasticsearch\ConnectionPool\Selectors\StickyRoundRobinSelector();
 
         $mockConnections = array();
-        $mockConnections[] = m::mock('\Elasticsearch\Connections\GuzzleConnection')
+        $mockConnections[] = m::mock('Goodses\Elasticsearch\Connections\GuzzleConnection')
                              ->shouldReceive('isAlive')->times(16)->andReturn(true)->getMock();
 
         foreach (range(0, 9) as $index) {
-            $mockConnections[] = m::mock('\Elasticsearch\Connections\GuzzleConnection');
+            $mockConnections[] = m::mock('Goodses\Elasticsearch\Connections\GuzzleConnection');
         }
 
         foreach (range(0, 15) as $index) {
@@ -43,17 +43,17 @@ class StickyRoundRobinSelectorTest extends \PHPUnit_Framework_TestCase
 
     public function testTenConnectionsFirstDies()
     {
-        $roundRobin = new Elasticsearch\ConnectionPool\Selectors\StickyRoundRobinSelector();
+        $roundRobin = new Goodses\Elasticsearch\ConnectionPool\Selectors\StickyRoundRobinSelector();
 
         $mockConnections = array();
-        $mockConnections[] = m::mock('\Elasticsearch\Connections\GuzzleConnection')
+        $mockConnections[] = m::mock('Goodses\Elasticsearch\Connections\GuzzleConnection')
                              ->shouldReceive('isAlive')->once()->andReturn(false)->getMock();
 
-        $mockConnections[] = m::mock('\Elasticsearch\Connections\GuzzleConnection')
+        $mockConnections[] = m::mock('Goodses\Elasticsearch\Connections\GuzzleConnection')
                              ->shouldReceive('isAlive')->times(15)->andReturn(true)->getMock();
 
         foreach (range(0, 8) as $index) {
-            $mockConnections[] = m::mock('\Elasticsearch\Connections\GuzzleConnection');
+            $mockConnections[] = m::mock('Goodses\Elasticsearch\Connections\GuzzleConnection');
         }
 
         foreach (range(0, 15) as $index) {
